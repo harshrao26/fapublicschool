@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const HomeFooter = () => {
   return (
-    <footer className="bg-blue-900 text-white py-10 px-6">
+    <footer className="bg-gradient-to-r from-[#FACC15] to-[#ffcc00] text-black py-10 px-6 overflow-hidden">
       <div className="container mx-auto">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between">
@@ -20,35 +20,35 @@ const HomeFooter = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="text-white hover:text-gray-300 text-2xl"
+                className="text-black hover:text-gray-800 text-2xl"
                 aria-label="Facebook"
               >
                 <FaFacebookF />
               </a>
               <a
                 href="#"
-                className="text-white hover:text-gray-300 text-2xl"
+                className="text-black hover:text-gray-800 text-2xl"
                 aria-label="Twitter"
               >
                 <FaTwitter />
               </a>
               <a
                 href="#"
-                className="text-white hover:text-gray-300 text-2xl"
+                className="text-black hover:text-gray-800 text-2xl"
                 aria-label="Instagram"
               >
                 <FaInstagram />
               </a>
               <a
                 href="#"
-                className="text-white hover:text-gray-300 text-2xl"
+                className="text-black hover:text-gray-800 text-2xl"
                 aria-label="LinkedIn"
               >
                 <FaLinkedinIn />
               </a>
               <a
                 href="#"
-                className="text-white hover:text-gray-300 text-2xl"
+                className="text-black hover:text-gray-800 text-2xl"
                 aria-label="YouTube"
               >
                 <FaYoutube />
@@ -63,7 +63,7 @@ const HomeFooter = () => {
               <li>
                 <Link
                   to="/about"
-                  className="text-white hover:text-gray-300 transition"
+                  className="text-black hover:text-gray-800 transition"
                 >
                   About Us
                 </Link>
@@ -71,7 +71,7 @@ const HomeFooter = () => {
               <li>
                 <Link
                   to="/admissions"
-                  className="text-white hover:text-gray-300 transition"
+                  className="text-black hover:text-gray-800 transition"
                 >
                   Admissions
                 </Link>
@@ -79,7 +79,7 @@ const HomeFooter = () => {
               <li>
                 <Link
                   to="/gallery"
-                  className="text-white hover:text-gray-300 transition"
+                  className="text-black hover:text-gray-800 transition"
                 >
                   Gallery
                 </Link>
@@ -87,7 +87,7 @@ const HomeFooter = () => {
               <li>
                 <Link
                   to="/contact"
-                  className="text-white hover:text-gray-300 transition"
+                  className="text-black hover:text-gray-800 transition"
                 >
                   Contact Us
                 </Link>
@@ -138,6 +138,9 @@ const HomeFooter = () => {
           <p className="text-sm">
             &copy; {new Date().getFullYear()} F.A. Public School. All rights
             reserved.
+          </p>
+          <p className="text-sm hover:scale-110 transition-all ease-out ">
+            Created by the Developers of <a href="" className="underline">Advert Furos</a>
           </p>
         </div>
       </div>
