@@ -8,10 +8,10 @@ import {
 
 const Admissions = () => {
   return (
-    <section className="bg-blue-100 py-12 px-6">
+    <section className="bg-yellow-100 py-12 px-6 pt-32">
       <div className="container mx-auto text-center">
         {/* Section Title */}
-        <h2 className="text-3xl font-bold text-blue-900 mb-6">
+        <h2 className="text-3xl font-bold text-yellow-900 mb-6">
           Admissions at F.A. Public School
         </h2>
         <p className="text-lg text-gray-700 mb-12">
@@ -24,9 +24,9 @@ const Admissions = () => {
           {/* Admission Requirement */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaRegAddressCard className="text-blue-500 text-4xl" />
+              <FaRegAddressCard className="text-yellow-500 text-4xl" />
             </div>
-            <h3 className="text-xl font-semibold text-blue-900 mb-2">
+            <h3 className="text-xl font-semibold text-yellow-900 mb-2">
               Admission Requirement
             </h3>
             <p className="text-gray-700">
@@ -39,9 +39,9 @@ const Admissions = () => {
           {/* Admission Timing */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaRegClock className="text-blue-500 text-4xl" />
+              <FaRegClock className="text-yellow-500 text-4xl" />
             </div>
-            <h3 className="text-xl font-semibold text-blue-900 mb-2">
+            <h3 className="text-xl font-semibold text-yellow-900 mb-2">
               Admission Timing
             </h3>
             <p className="text-gray-700">
@@ -53,9 +53,9 @@ const Admissions = () => {
           {/* Eligibility */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaUserGraduate className="text-blue-500 text-4xl" />
+              <FaUserGraduate className="text-yellow-500 text-4xl" />
             </div>
-            <h3 className="text-xl font-semibold text-blue-900 mb-2">
+            <h3 className="text-xl font-semibold text-yellow-900 mb-2">
               Eligibility
             </h3>
             <p className="text-gray-700">
@@ -67,7 +67,7 @@ const Admissions = () => {
 
         {/* Admission Fee Section */}
         <div className="mt-12">
-          <h3 className="text-2xl font-semibold text-blue-900 mb-6">
+          <h3 className="text-2xl font-semibold text-yellow-900 mb-6">
             Admission Fees
           </h3>
           <p className="text-lg text-gray-700 mb-4">
@@ -77,7 +77,7 @@ const Admissions = () => {
           </p>
 
           <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
-            <h4 className="text-xl font-semibold text-blue-900 mb-2">
+            <h4 className="text-xl font-semibold text-yellow-900 mb-2">
               Fee Breakdown
             </h4>
             <ul className="list-disc pl-6 text-gray-700">
@@ -89,7 +89,7 @@ const Admissions = () => {
           </div>
 
           {/* Contact Section */}
-          <div className="bg-blue-500 p-6 rounded-lg shadow-lg text-white">
+          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-white">
             <h3 className="text-2xl font-semibold mb-4">
               Contact Us for Admissions
             </h3>

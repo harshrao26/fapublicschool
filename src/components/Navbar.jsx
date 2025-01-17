@@ -15,13 +15,13 @@ const Navbar = () => {
         {/* Phone */}
         <div className="flex items-center space-x-1">
           <FiPhone className="text-gray-600" />
-          <span className="text-sm text-gray-800">+1 234 567 890</span>
+          <span className="text-sm text-gray-800">+91-8707747148</span>
         </div>
 
         {/* Email */}
         <div className="flex items-center space-x-1">
           <FiMail className="text-gray-600" />
-          <span className="text-sm text-gray-800">info@example.com</span>
+          <span className="text-sm text-gray-800">fapsjaunpur@gmail.com</span>
         </div>
 
         {/* Social Media Icons */}

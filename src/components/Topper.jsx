@@ -159,7 +159,7 @@ const Toppers = () => {
   );
 
   return (
-    <div className="b py-12 px-6 md:px-12 overflow-hidden h-96">
+    <div className=" py-12 px-6 md:px-12 overflow-hidden ">
       <div className="max-w-8xl mx-auto relative ">
         <h2 className="text-3xl font-bold text-center text-yellow-700 mb-8">
           Meet Our Toppers

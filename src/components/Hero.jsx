@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-
+import kids from '../assets/kids.jpg'
+import kids1 from '../assets/kids1.jpg'
+import kids2 from '../assets/kids2.jpg'
+import kids3 from '../assets/kids3.jpg'
+import kids4 from '../assets/kids4.jpg'
 const Hero = () => {
   const images = [
-    "https://img.freepik.com/free-vector/gradient-background-back-school-season_23-2150559172.jpg?t=st=1737098295~exp=1737101895~hmac=e3494a02694953d87f084008d05292ee6cb72078a6943e53a26860cd225d44c5&w=740",
-    
-    "https://img.freepik.com/free-vector/gradient-background-back-school-season_23-2150559172.jpg?t=st=1737098295~exp=1737101895~hmac=e3494a02694953d87f084008d05292ee6cb72078a6943e53a26860cd225d44c5&w=740",
-    
-    "https://img.freepik.com/free-vector/gradient-background-back-school-season_23-2150559172.jpg?t=st=1737098295~exp=1737101895~hmac=e3494a02694953d87f084008d05292ee6cb72078a6943e53a26860cd225d44c5&w=740",
-    
+    kids,
+    kids1,
+    kids2,
+    kids3,
+    kids4    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,7 +39,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative w-full h-[90vh] overflow-hidden pt-20">
+    <div className="relative w-full h-[100vh] overflow-hidden pt-20">
       <div
         className={`w-full h-full flex items-center justify-center transition-transform duration-500 ${
           direction === "right" ? "translate-x-0" : "-translate-x-0"
