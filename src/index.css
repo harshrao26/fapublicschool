@@ -8,3 +8,33 @@
   font-weight: 600;
   font-style: normal;
 }
+
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 35s linear infinite;
+}
+
+.marquee-content {
+  display: flex;
+}
+
+.testimonial-card {
+  min-width: 350px;
+  max-width: 400px;
+  flex: 1;
+  text-align: center;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

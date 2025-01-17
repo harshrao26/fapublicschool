@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar.jsx";
-import Hero from "./components/Hero.jsx";
-import Message from "./components/Message.jsx";
+
+import Footer from "./components/Footer.jsx";
+import Routing from "./Routing.jsx";
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Message />
+      <Routing />
+      <Footer />
     </div>
   );
 };

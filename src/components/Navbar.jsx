@@ -53,9 +53,12 @@ const Navbar = () => {
         </div>
       </div>
 
-      <nav className=" text-yellow-500 shadow-lg z-50 bg-white">
+      <nav className=" text-yellow-500 shadow-sm z-50 bg-white">
         <div className="container mx-auto px-4 flex justify-between items-center h-16">
-          <div className="text-2xl font-bold">School Name</div>
+          <div className="text-2xl font-bold">
+            {" "}
+            <Link to="/">School Name</Link>
+          </div>
           <button
             className="md:hidden text-2xl focus:outline-none"
             onClick={toggleMenu}
@@ -68,7 +71,7 @@ const Navbar = () => {
             }`}
           >
             <li className="text-lg hover:text-gray-300 py-2 px-4 md:px-0">
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li className="text-lg hover:text-gray-300 py-2 px-4 md:px-0">
               <Link to="/about">About Us</Link>

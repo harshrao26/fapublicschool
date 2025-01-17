@@ -3,20 +3,22 @@ import { FaQuoteLeft, FaUniversity } from "react-icons/fa";
 
 const SchoolSection = () => {
   return (
-    <div className="bg-ray-100 py-10 px-6 md:px-20">
-      <div className="max-w-6xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden flex flex-col lg:flex-row">
+    <div className="bg-gray-100 py-10 px-6 md:px-20">
+      <div className="max-w-6xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
         {/* Image Section */}
-        <div className="flex flex-col items-center md:w-1/3 p-4">
+        <div className="md:w-1/3 flex flex-col items-center p-4">
           <img
-            src="https://via.placeholder.com/300x400"
+            src="https://images.unsplash.com/photo-1446329360995-b4642a139973?q=80&w=1377&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="MD of the school"
-            className="w-48 h-64 object-cover rounded-lg mb-4"
+            className="w-full h-auto object-cover rounded-lg"
           />
           {/* MD Name and Qualification */}
-          <h2 className="text-xl font-bold text-gray-800 mt-2">Mr. John Doe</h2>
+          <h2 className="text-xl font-bold text-gray-800 mt-4">
+            Dr. M. Sajid Sherwani
+          </h2>
           <p className="text-gray-600 text-sm flex items-center mt-1">
             <FaUniversity className="text-yellow-500 mr-2" />
-            M.Ed., Ph.D. in Educational Leadership
+            Ph.D. Alig
           </p>
         </div>
 

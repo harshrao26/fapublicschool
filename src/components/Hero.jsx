@@ -3,9 +3,12 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
   const images = [
-    "https://via.placeholder.com/800x400/FF0000/FFFFFF?text=Image+1",
-    "https://via.placeholder.com/800x400/00FF00/FFFFFF?text=Image+2",
-    "https://via.placeholder.com/800x400/0000FF/FFFFFF?text=Image+3",
+    "https://img.freepik.com/free-vector/gradient-background-back-school-season_23-2150559172.jpg?t=st=1737098295~exp=1737101895~hmac=e3494a02694953d87f084008d05292ee6cb72078a6943e53a26860cd225d44c5&w=740",
+    
+    "https://img.freepik.com/free-vector/gradient-background-back-school-season_23-2150559172.jpg?t=st=1737098295~exp=1737101895~hmac=e3494a02694953d87f084008d05292ee6cb72078a6943e53a26860cd225d44c5&w=740",
+    
+    "https://img.freepik.com/free-vector/gradient-background-back-school-season_23-2150559172.jpg?t=st=1737098295~exp=1737101895~hmac=e3494a02694953d87f084008d05292ee6cb72078a6943e53a26860cd225d44c5&w=740",
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -33,7 +36,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative w-full h-96 overflow-hidden">
+    <div className="relative w-full h-[90vh] overflow-hidden pt-20">
       <div
         className={`w-full h-full flex items-center justify-center transition-transform duration-500 ${
           direction === "right" ? "translate-x-0" : "-translate-x-0"
