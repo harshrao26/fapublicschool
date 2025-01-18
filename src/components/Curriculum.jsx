@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   FaBookOpen,
   FaChalkboardTeacher,
@@ -8,11 +8,24 @@ import {
 } from "react-icons/fa";
 
 const Curriculum = () => {
+  useEffect(() => {
+    // Ensure scrolling to the top of the document when the component is mounted
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // You can use "auto" for instant scroll
+    });
+
+    // As a fallback, scroll the root element
+    document.documentElement.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
-    <section className="bg-gray-100 py-16 px-6">
+    <section className=" py-16 px-6 pt-32">
       <div className="container mx-auto text-center">
         {/* Section Title */}
-        <h2 className="text-3xl font-bold text-blue-900 mb-6">
+        <h2 className="text-3xl font-bold text-[#064e96] mb-6">
           Our Curriculum
         </h2>
         <p className="text-lg text-gray-700 mb-12 max-w-3xl mx-auto">
@@ -31,7 +44,7 @@ const Curriculum = () => {
             />
           </div>
           <div className="w-full md:w-1/2 px-4">
-            <h3 className="text-2xl font-semibold text-blue-900 mb-4">
+            <h3 className="text-2xl font-semibold text-[#064e96] mb-4">
               Curriculum Overview
             </h3>
             <p className="text-lg text-gray-700 mb-4">
@@ -54,9 +67,9 @@ const Curriculum = () => {
           {/* Early Education */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaBookOpen className="text-blue-500 text-4xl" />
+              <FaBookOpen className="text-[#064e96] text-4xl" />
             </div>
-            <h4 className="text-xl font-semibold text-blue-900 mb-2">
+            <h4 className="text-xl font-semibold text-[#064e96] mb-2">
               Early Education (Nursery - Class 2)
             </h4>
             <img
@@ -74,9 +87,9 @@ const Curriculum = () => {
           {/* Primary Education */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaChalkboardTeacher className="text-blue-500 text-4xl" />
+              <FaChalkboardTeacher className="text-[#064e96] text-4xl" />
             </div>
-            <h4 className="text-xl font-semibold text-blue-900 mb-2">
+            <h4 className="text-xl font-semibold text-[#064e96] mb-2">
               Primary Education (Class 3 - Class 5)
             </h4>
             <img
@@ -94,9 +107,9 @@ const Curriculum = () => {
           {/* Middle Education */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaRegListAlt className="text-blue-500 text-4xl" />
+              <FaRegListAlt className="text-[#064e96] text-4xl" />
             </div>
-            <h4 className="text-xl font-semibold text-blue-900 mb-2">
+            <h4 className="text-xl font-semibold text-[#064e96] mb-2">
               Middle Education (Class 6 - Class 8)
             </h4>
             <img
@@ -114,9 +127,9 @@ const Curriculum = () => {
           {/* Senior Education */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaGraduationCap className="text-blue-500 text-4xl" />
+              <FaGraduationCap className="text-[#064e96] text-4xl" />
             </div>
-            <h4 className="text-xl font-semibold text-blue-900 mb-2">
+            <h4 className="text-xl font-semibold text-[#064e96] mb-2">
               Senior Education (Class 9 - Class 12)
             </h4>
             <img
@@ -134,7 +147,7 @@ const Curriculum = () => {
         </div>
 
         {/* Advanced Teaching Methodology */}
-        <div className="mt-16 bg-blue-500 text-white p-8 rounded-lg shadow-lg">
+        <div className="mt-16 bg-[#064e96] text-white p-8 rounded-lg shadow-lg">
           <h3 className="text-3xl font-semibold mb-6">
             Our Advanced Teaching Methodology
           </h3>

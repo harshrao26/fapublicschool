@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaSchool, FaUserGraduate, FaLaptop, FaGamepad } from "react-icons/fa";
 import { MdOutlineLibraryBooks, MdEmail, MdPhone } from "react-icons/md";
 
 const AboutUs = () => {
+  useEffect(() => {
+    // Ensure scrolling to the top of the document when the component is mounted
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // You can use "auto" for instant scroll
+    });
+
+    // As a fallback, scroll the root element
+    document.documentElement.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="bg-gray-5 pt-10 md:pt-32 p-6 md:p-10">
       <h1 className="text-center text-3xl font-bold text-[#064E96] mb-8">

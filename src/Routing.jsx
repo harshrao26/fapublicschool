@@ -7,6 +7,7 @@ import Academics from "./components/Academics.jsx";
 import Admission from "./components/Admission.jsx";
 import Curriculum from "./components/Curriculum.jsx";
 import Gallery from "./components/Gallery.jsx";
+import Contact from "./components/Contact.jsx";
 const Routing = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const Routing = () => {
         <Route path="/admission" element={<Admission />} />
         <Route path="/curriculum" element={<Curriculum />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

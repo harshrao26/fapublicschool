@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   FaRegAddressCard,
   FaRegClock,
@@ -7,6 +7,19 @@ import {
 } from "react-icons/fa";
 
 const Admissions = () => {
+  useEffect(() => {
+    // Ensure scrolling to the top of the document when the component is mounted
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // You can use "auto" for instant scroll
+    });
+
+    // As a fallback, scroll the root element
+    document.documentElement.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <section className=" py-12 px-6 pt-32">
       <div className="container mx-auto text-center">

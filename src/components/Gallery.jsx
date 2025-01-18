@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Gallery = () => {
   const images = [
@@ -11,11 +11,24 @@ const Gallery = () => {
     "https://via.placeholder.com/400x300/5733FF/FFFFFF?text=Image+7",
     "https://via.placeholder.com/400x300/F0F0F0/FFFFFF?text=Image+8",
   ];
+  useEffect(() => {
+    // Ensure scrolling to the top of the document when the component is mounted
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // You can use "auto" for instant scroll
+    });
+
+    // As a fallback, scroll the root element
+    document.documentElement.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
 
   return (
-    <section className="b-100 py-16 px-6">
+    <section className="b-100 py-16 px-6 t-32">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold text-center text-[#064E96]  mb-6">
+        <h2 className="text-3xl font-bold text-center text-[#064E96]  mb-6">
           Gallery
         </h2>
         <p className="text-lg text-gray-700 mb-12 max-w-3xl mx-auto">
