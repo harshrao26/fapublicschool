@@ -1,151 +1,106 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
-const HomeFooter = () => {
+const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#FACC15] to-[#ffcc00] text-black py-10 px-6 overflow-hidden">
-      <div className="container mx-auto">
-        {/* Top Section */}
-        <div className="flex flex-col md:flex-row justify-between">
-          {/* Social Media Links */}
-          <div className="mb-6 md:mb-0">
-            <h3 className="text-lg font-bold mb-4">Follow Us</h3>
-            <div className="flex space-x-4">
-              <a
-                href="#"
-                className="text-black hover:text-gray-800 text-2xl"
-                aria-label="Facebook"
-              >
-                <FaFacebookF />
-              </a>
-              <a
-                href="#"
-                className="text-black hover:text-gray-800 text-2xl"
-                aria-label="Twitter"
-              >
-                <FaTwitter />
-              </a>
-              <a
-                href="#"
-                className="text-black hover:text-gray-800 text-2xl"
-                aria-label="Instagram"
-              >
-                <FaInstagram />
-              </a>
-              <a
-                href="#"
-                className="text-black hover:text-gray-800 text-2xl"
-                aria-label="LinkedIn"
-              >
-                <FaLinkedinIn />
-              </a>
-              <a
-                href="#"
-                className="text-black hover:text-gray-800 text-2xl"
-                aria-label="YouTube"
-              >
-                <FaYoutube />
-              </a>
-            </div>
+    <footer className="bg-[#064E96] text-white py-12 px-8">
+      <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+        {/* Left Section */}
+        <div className="flex flex-col items-center md:items-start">
+          <div className="text-4xl font-extrabold text-white mb-4">
+            FA PUBLIC SCHOOL
           </div>
-
-          {/* Internal Links */}
-          <div className="mb-6 md:mb-0">
-            <h3 className="text-lg font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link
-                  to="/about"
-                  className="text-black hover:text-gray-800 transition"
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/admissions"
-                  className="text-black hover:text-gray-800 transition"
-                >
-                  Admissions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/gallery"
-                  className="text-black hover:text-gray-800 transition"
-                >
-                  Gallery
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/contact"
-                  className="text-black hover:text-gray-800 transition"
-                >
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* School Pictures */}
-          <div>
-            <h3 className="text-lg font-bold mb-4">Our School</h3>
-            <div className="grid grid-cols-3 gap-2">
-              <img
-                src="https://via.placeholder.com/100"
-                alt="School Pic 1"
-                className="rounded-md"
-              />
-              <img
-                src="https://via.placeholder.com/100"
-                alt="School Pic 2"
-                className="rounded-md"
-              />
-              <img
-                src="https://via.placeholder.com/100"
-                alt="School Pic 3"
-                className="rounded-md"
-              />
-              <img
-                src="https://via.placeholder.com/100"
-                alt="School Pic 4"
-                className="rounded-md"
-              />
-              <img
-                src="https://via.placeholder.com/100"
-                alt="School Pic 5"
-                className="rounded-md"
-              />
-              <img
-                src="https://via.placeholder.com/100"
-                alt="School Pic 6"
-                className="rounded-md"
-              />
-            </div>
+          <p className="text-lg text-gray-200 mb-6 text-center md:text-left">
+            The cornerstone in our pedagogical model is the progression for each
+            student at the student’s own pace and according to the ambitions of
+            the student.
+          </p>
+          <div className="flex space-x-4">
+            <a href="#" className="text-gray-200 hover:text-blue-500">
+              <FaFacebookF size={20} />
+            </a>
+            <a href="#" className="text-gray-200 hover:text-blue-500">
+              <FaInstagram size={20} />
+            </a>
+            <a href="#" className="text-gray-200 hover:text-blue-500">
+              <FaLinkedinIn size={20} />
+            </a>
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="mt-10 text-center">
-          <p className="text-sm">
-            &copy; {new Date().getFullYear()} F.A. Public School. All rights
-            reserved.
-          </p>
-          <p className="text-sm hover:scale-110 transition-all ease-out ">
-            Created by the Developers of <a href="" className="underline">Advert Furos</a>
-          </p>
+        {/* Quick Links Section */}
+        <div className="space-y-4 text-center md:text-left">
+          <h3 className="text-2xl font-semibold text-white">Quick Links</h3>
+          <ul className="text-gray-200">
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                Blogs
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                TC Search
+              </a>
+            </li>
+          </ul>
         </div>
+
+        {/* Support Section */}
+        <div className="space-y-4 text-center md:text-left">
+          <h3 className="text-2xl font-semibold text-white">Support</h3>
+          <ul className="text-gray-200">
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                Hostel Facilities
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                Mandatory Public Disclosures
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                CBSE Curriculum
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Admission Banner */}
+      {/* <div className="bg-yellow-500 text-blue-900 py-3 text-center font-semibold">
+        <span>Admission Open!</span>
+      </div> */}
+
+      {/* School Hours & Copyright */}
+      <div className="text-center mt-6 text-gray-200">
+        <p className="text-lg">School Hours: 8 AM - 3 PM, Monday - Saturday</p>
+        <p className="text-sm">
+          Co-Ed school affiliated to Central Board of Secondary Education
+          (CBSE), managed by Vision Educational And Technical Trust.
+        </p>
+        <p className="text-xs mt-4">
+          © 2025 FA Public School. All rights reserved.
+        </p>
       </div>
     </footer>
   );
 };
 
-export default HomeFooter;
+export default Footer;

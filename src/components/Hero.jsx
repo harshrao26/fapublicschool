@@ -7,11 +7,11 @@ import kids3 from '../assets/kids3.jpg'
 import kids4 from '../assets/kids4.jpg'
 const Hero = () => {
   const images = [
-    kids,
-    kids1,
+    "https://t4.ftcdn.net/jpg/03/07/84/03/360_F_307840318_8bA5i8nfSre5dTNmr37Eot8vrqehE2vD.jpg",
+    "kids1",
     kids2,
     kids3,
-    kids4    
+    kids4,
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,7 +39,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative w-full h-[100vh] overflow-hidden pt-20">
+    <div className="relative w-full md:h-[100vh] lg:h-[100vh] h-[50vh] overflow-hidden pt-20">
       <div
         className={`w-full h-full flex items-center justify-center transition-transform duration-500 ${
           direction === "right" ? "translate-x-0" : "-translate-x-0"

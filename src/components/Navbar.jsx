@@ -3,6 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { FiPhone, FiMail } from "react-icons/fi";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import logo from '../assets/logo.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -11,21 +12,25 @@ const Navbar = () => {
   };
   return (
     <div className="fixed w-full z-50">
-      <div className="flex  items-center space-x-4 p-2 bg-yellow-400 z-50">
+      <div className="flex  items-center md:space-x-4 space-x-3 p-2 bg-yellow-400 z-50">
         {/* Phone */}
         <div className="flex items-center space-x-1">
           <FiPhone className="text-gray-600" />
-          <span className="text-sm text-gray-800">+91-8707747148</span>
+          <span className="md:text-sm text-xs text-gray-800">
+            +91-8707747148
+          </span>
         </div>
 
         {/* Email */}
         <div className="flex items-center space-x-1">
           <FiMail className="text-gray-600" />
-          <span className="text-sm text-gray-800">fapsjaunpur@gmail.com</span>
+          <span className="md:text-sm text-xs text-gray-800">
+            fapsjaunpur@gmail.com
+          </span>
         </div>
 
         {/* Social Media Icons */}
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center md:space-x-3 space-x-1">
           <a
             href="https://facebook.com"
             target="_blank"
@@ -57,7 +62,9 @@ const Navbar = () => {
         <div className="container mx-auto px-4 flex justify-between items-center h-16">
           <div className="text-2xl font-bold">
             {" "}
-            <Link to="/">School Name</Link>
+            <Link to="/">
+              <img src={logo} alt="logo" className="w-20" />
+            </Link>
           </div>
           <button
             className="md:hidden text-2xl focus:outline-none"

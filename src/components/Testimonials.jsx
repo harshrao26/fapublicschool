@@ -3,37 +3,37 @@ import React from "react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Aarav Sharma",
+      name: "Hassan Ahamed",
       message:
         "F A Public School has been an incredible experience. The teachers go above and beyond to ensure every student succeeds.",
     },
     {
-      name: "Ishita Verma",
+      name: "Anas Khan",
       message:
         "The extracurricular opportunities here are amazing! I discovered my love for painting thanks to the art club.",
     },
     {
-      name: "Rohan Joshi",
+      name: "Momina Khatoon",
       message:
         "Learning at this school has been nothing short of inspiring. The environment is both competitive and nurturing.",
     },
     {
-      name: "Ananya Gupta",
+      name: "Farhana",
       message:
         "The support from teachers and peers helped me achieve my dreams. I’ll always cherish these memories.",
     },
     {
-      name: "Vihaan Singh",
+      name: "Wazir Khan",
       message:
         "F A Public School's focus on holistic development made me confident and prepared for real-life challenges.",
     },
     {
-      name: "Sneha Iyer",
+      name: "Akhtar Alam",
       message:
         "I will always be grateful for the guidance I received. My time here was filled with learning and joy.",
     },
     {
-      name: "Manav Mishra",
+      name: "Hamza Ahamed",
       message:
         "Being here felt like being part of a family. I loved the dedication and care from everyone in the school.",
     },
@@ -43,7 +43,7 @@ const Testimonials = () => {
         "I learned so much, both academically and personally. This school shaped who I am today.",
     },
     {
-      name: "Kabir Malhotra",
+      name: "Kunaal Gupta",
       message:
         "The sports facilities are top-notch. It helped me grow not just as a student but also as an athlete.",
     },
@@ -53,12 +53,12 @@ const Testimonials = () => {
         "I joined this school with high expectations, and it exceeded them all. Thank you for everything!",
     },
     {
-      name: "Nikhil Kapoor",
+      name: "Juned Ahamed",
       message:
         "The best thing about this school is the supportive community. Everyone genuinely cares about each other.",
     },
     {
-      name: "Aanya Sinha",
+      name: "Adnan Sheikh",
       message:
         "From day one, I felt welcomed and valued. The experience was absolutely transformative.",
     },

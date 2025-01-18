@@ -5,123 +5,118 @@ const Toppers = () => {
     {
       id: 1,
       name: "Aarav Sharma",
-      img: "https://via.placeholder.com/150",
+      img: "https://i.pinimg.com/474x/6b/7e/d6/6b7ed698713c09ad9e6afc7dcb996a09.jpg",
       class: "10th ",
     },
     {
       id: 2,
       name: "Ishita Verma",
-      img: "https://via.placeholder.com/150",
+      img: "https://www.mrmed.in/Guruvigneshwari.jpg",
       class: "12th ",
     },
     {
       id: 3,
-      name: "Vihaan Singh",
-      img: "https://via.placeholder.com/150",
+      name: "Sana Khan",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThOeiQhUXDO6Rl2Ugfi1m-HfNw_3Hmeqw1nPC9AAiTlhL8yW_TTLn-EkHBqNpdingIaPo&usqp=CAU",
       class: "10th ",
     },
     {
       id: 4,
-      name: "Ananya Gupta",
-      img: "https://via.placeholder.com/150",
+      name: "Ayesha Parveen",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlCeyIeNUMwF5Z4ze0RyK0c6UQ_UOuFGyuFeZEIvg1WxND09gdOIZznleKod-YV-90F60&usqp=CAU",
       class: "12th ",
     },
     {
       id: 5,
-      name: "Krishna Patel",
-      img: "https://via.placeholder.com/150",
+      name: "Hira Javed",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33DeuWHvA1LK_P3Yn-5Br4i4q9cn-AQlfqm6iqDLgEMIk-teFD5m8X0wBNfq7GXEWLZM&usqp=CAU",
       class: "10th ",
     },
     {
       id: 6,
-      name: "Riya Desai",
-      img: "https://via.placeholder.com/150",
+      name: "Anas Khan",
+      img: "https://i.pinimg.com/736x/05/7f/df/057fdfd101877c6e33c11f3fda62ab9b.jpg",
       class: "12th ",
     },
     {
       id: 7,
-      name: "Arjun Kumar",
-      img: "https://via.placeholder.com/150",
-      class: "10th ",
-    },
-    {
-      id: 8,
-      name: "Diya Roy",
-      img: "https://via.placeholder.com/150",
+      name: "Adnan Sheikh",
+      img: "https://www.charusat.ac.in/cmpica/images/faculty_photo/jaypanchal.jpg",
       class: "12th ",
     },
+   
     {
       id: 9,
-      name: "Kabir Mehta",
-      img: "https://via.placeholder.com/150",
-      class: "10th ",
+      name: "Nazim Ahamed",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVI0hDIloDMjTT0hpF0UAWdJAJeydAG2isNo6OK_I6DiVF8cK0NNXUga5priFdu9O2_PQ&usqp=CAU",
+      class: "12th ",
     },
     {
       id: 10,
-      name: "Sneha Iyer",
-      img: "https://via.placeholder.com/150",
+      name: "Shama Parveen",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzd7g_u_IqhwNJArxQtDhBgkTijbwBP3uUQg&s",
       class: "12th ",
     },
-    {
-      id: 11,
-      name: "Aryan Choudhary",
-      img: "https://via.placeholder.com/150",
-      class: "10th ",
-    },
-    {
-      id: 12,
-      name: "Meera Bhat",
-      img: "https://via.placeholder.com/150",
-      class: "12th ",
-    },
-    {
-      id: 13,
-      name: "Dev Sharma",
-      img: "https://via.placeholder.com/150",
-      class: "10th ",
-    },
-    {
-      id: 14,
-      name: "Pooja Sinha",
-      img: "https://via.placeholder.com/150",
-      class: "12th ",
-    },
-    {
-      id: 15,
-      name: "Rohan Joshi",
-      img: "https://via.placeholder.com/150",
-      class: "10th ",
-    },
-    {
-      id: 16,
-      name: "Aditi Nair",
-      img: "https://via.placeholder.com/150",
-      class: "12th ",
-    },
-    {
-      id: 17,
-      name: "Samarth Goel",
-      img: "https://via.placeholder.com/150",
-      class: "10th ",
-    },
-    {
-      id: 18,
-      name: "Tara Kapoor",
-      img: "https://via.placeholder.com/150",
-      class: "12th ",
-    },
-    {
-      id: 19,
-      name: "Manav Mishra",
-      img: "https://via.placeholder.com/150",
-      class: "10th ",
-    },
-    {
-      id: 20,
-      name: "Naina Reddy",
-      img: "https://via.placeholder.com/150",
-      class: "12th ",
-    },
+    // {
+    //   id: 11,
+    //   name: "Aryan Choudhary",
+    //   img: "https://via.placeholder.com/150",
+    //   class: "10th ",
+    // },
+    // {
+    //   id: 12,
+    //   name: "Meera Bhat",
+    //   img: "https://via.placeholder.com/150",
+    //   class: "12th ",
+    // },
+    // {
+    //   id: 13,
+    //   name: "Dev Sharma",
+    //   img: "https://via.placeholder.com/150",
+    //   class: "10th ",
+    // },
+    // {
+    //   id: 14,
+    //   name: "Pooja Sinha",
+    //   img: "https://via.placeholder.com/150",
+    //   class: "12th ",
+    // },
+    // {
+    //   id: 15,
+    //   name: "Rohan Joshi",
+    //   img: "https://via.placeholder.com/150",
+    //   class: "10th ",
+    // },
+    // {
+    //   id: 16,
+    //   name: "Aditi Nair",
+    //   img: "https://via.placeholder.com/150",
+    //   class: "12th ",
+    // },
+    // {
+    //   id: 17,
+    //   name: "Samarth Goel",
+    //   img: "https://via.placeholder.com/150",
+    //   class: "10th ",
+    // },
+    // {
+    //   id: 18,
+    //   name: "Tara Kapoor",
+    //   img: "https://via.placeholder.com/150",
+    //   class: "12th ",
+    // },
+    // {
+    //   id: 19,
+    //   name: "Manav Mishra",
+    //   img: "https://via.placeholder.com/150",
+    //   class: "10th ",
+    // },
+    // {
+    //   id: 20,
+    //   name: "Naina Reddy",
+    //   img: "https://via.placeholder.com/150",
+    //   class: "12th ",
+    // },
   ];
 
   const toppersPerSlide = 6; // Number of toppers displayed per slide
@@ -132,7 +127,7 @@ const Toppers = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
-    }, 2000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, [currentIndex]);
@@ -190,7 +185,7 @@ const Toppers = () => {
             ))}
           </div>
           {/* Navigation buttons */}
-          <div className="absolute top-1/2 transform -translate-y-1/2 w-full flex justify-between px-4">
+          {/* <div className="absolute top-1/2 transform -translate-y-1/2 w-full flex justify-between px-4">
             <button
               onClick={handlePrevious}
               className="bg-yellow-500 text-white p-2 rounded-full hover:bg-yellow-700"
@@ -203,7 +198,7 @@ const Toppers = () => {
             >
               &#8594;
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

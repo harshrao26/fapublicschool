@@ -1,6 +1,6 @@
 import React from "react";
 import { FaQuoteLeft, FaUniversity } from "react-icons/fa";
-
+import person from '../assets/person.jpg'
 const SchoolSection = () => {
   return (
     <div className="bg-gray-100 py-10 px-6 md:px-20">
@@ -8,7 +8,7 @@ const SchoolSection = () => {
         {/* Image Section */}
         <div className="md:w-1/3 flex flex-col items-center p-4">
           <img
-            src="https://images.unsplash.com/photo-1446329360995-b4642a139973?q=80&w=1377&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={person}
             alt="MD of the school"
             className="w-full h-auto object-cover rounded-lg"
           />

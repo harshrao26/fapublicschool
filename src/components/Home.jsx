@@ -2,6 +2,11 @@ import React from "react";
 import Hero from "./Hero.jsx";
 import Message from "./Message.jsx";
 import Topper from "./Topper.jsx";
+import CampusFacilities from "./CampusFacilities.jsx";
+import LearningGrowthSection from "./LearningGrowthSection.jsx";
+import AccommodationSection from "./AccommodationSection.jsx";
+import HostelInfo from "./HostelInfo.jsx";
+import OurEducation from "./OurEducation.jsx";
 import Testimonials from "./Testimonials.jsx";
 import Gallery from "./Gallery.jsx";
 import Contact from "./Contact.jsx";
@@ -10,6 +15,11 @@ const Home = () => {
     <div>
       <Hero />
       <Message />
+      <CampusFacilities />
+      <LearningGrowthSection />
+      <AccommodationSection />
+      <HostelInfo />
+      <OurEducation />
       <Topper />
       <Testimonials />
       <Gallery />
