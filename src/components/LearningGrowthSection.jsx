@@ -3,7 +3,7 @@ import { FaSchool, FaChalkboardTeacher, FaHome, FaBus } from "react-icons/fa";
 
 const LearningGrowthSection = () => {
   return (
-    <div className="bg-green-50 py-12 px-6 lg:px-20">
+    <div className="bg-zinc-50 py-12 px-6 lg:px-20">
       {/* Learning and Growth Section */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-16">
         {/* Image Section */}
@@ -17,7 +17,7 @@ const LearningGrowthSection = () => {
 
         {/* Content Section */}
         <div>
-          <h2 className="text-4xl font-bold text-green-700 mb-6">
+          <h2 className="text-4xl font-bold text-[#064E96] mb-6">
             Learning and Growth in Green and Nurturing Ambiance
           </h2>
           <p className="text-lg text-gray-700 mb-4">
@@ -31,9 +31,6 @@ const LearningGrowthSection = () => {
             designed to foster learning while ensuring the well-being of
             students, helping them thrive academically and personally.
           </p>
-          <button className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-green-700 transition">
-            Learn More
-          </button>
         </div>
       </div>
 
@@ -41,7 +38,7 @@ const LearningGrowthSection = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-16">
         {/* Content Section */}
         <div>
-          <h2 className="text-4xl font-bold text-green-700 mb-6">
+          <h2 className="text-4xl font-bold text-[#064E96] mb-6">
             Our Nurturing Community
           </h2>
           <p className="text-lg text-gray-700 mb-4">
@@ -56,31 +53,13 @@ const LearningGrowthSection = () => {
             hands, surrounded by a nurturing community that prioritizes their
             well-being.
           </p>
-          <button className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-green-700 transition">
-            Discover More
-          </button>
         </div>
 
         {/* Image Section */}
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4">
           <img
-            src="https://via.placeholder.com/300x200?text=GPS+Enabled+Buses"
-            alt="GPS Enabled Buses"
-            className="rounded-lg shadow-lg"
-          />
-          <img
-            src="https://via.placeholder.com/300x200?text=CCTV+Monitored"
-            alt="CCTV Monitored"
-            className="rounded-lg shadow-lg"
-          />
-          <img
-            src="https://via.placeholder.com/300x200?text=Safe+Environment"
-            alt="Safe Environment"
-            className="rounded-lg shadow-lg"
-          />
-          <img
-            src="https://via.placeholder.com/300x200?text=Community+Care"
-            alt="Community Care"
+            src="https://via.placeholder.com/600x400?text=Green+Ambiance"
+            alt="Green Ambiance"
             className="rounded-lg shadow-lg"
           />
         </div>

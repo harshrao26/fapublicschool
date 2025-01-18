@@ -5,7 +5,7 @@ import Topper from "./Topper.jsx";
 import CampusFacilities from "./CampusFacilities.jsx";
 import LearningGrowthSection from "./LearningGrowthSection.jsx";
 import AccommodationSection from "./AccommodationSection.jsx";
-import HostelInfo from "./HostelInfo.jsx";
+import StatsSection from "./StatsSection.jsx";
 import OurEducation from "./OurEducation.jsx";
 import Testimonials from "./Testimonials.jsx";
 import Gallery from "./Gallery.jsx";
@@ -18,7 +18,7 @@ const Home = () => {
       <CampusFacilities />
       <LearningGrowthSection />
       <AccommodationSection />
-      <HostelInfo />
+      <StatsSection />
       <OurEducation />
       <Topper />
       <Testimonials />

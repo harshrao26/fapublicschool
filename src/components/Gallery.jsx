@@ -13,9 +13,11 @@ const Gallery = () => {
   ];
 
   return (
-    <section className="bg-yellow-100 py-16 px-6">
+    <section className="b-100 py-16 px-6">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold text-yellow-900 mb-6">Gallery</h2>
+        <h2 className="text-4xl font-bold text-center text-[#064E96]  mb-6">
+          Gallery
+        </h2>
         <p className="text-lg text-gray-700 mb-12 max-w-3xl mx-auto">
           A glimpse of our school life, activities, and celebrations. Take a
           look at the pictures that highlight the essence of F.A. Public School.

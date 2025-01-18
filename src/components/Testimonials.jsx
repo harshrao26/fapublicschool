@@ -65,8 +65,8 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="marquee-container bg-yellow-50 py-8">
-      <h2 className="text-center text-3xl font-bold text-yellow-800 mb-6">
+    <div className="marquee-container bg-blue-50 py-8">
+      <h2 className="text-4xl font-bold text-center text-[#064E96] mb-12 ">
         What Our Students Say
       </h2>
       <div className="marquee">

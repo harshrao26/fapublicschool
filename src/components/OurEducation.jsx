@@ -27,7 +27,7 @@ const OurEducation = () => {
   return (
     <div className="flex flex-col items-center justify-center py-12 px-8">
       <div className="text-center mb-8">
-        <h2 className="text-4xl font-semibold text-blue-900">
+        <h2 className="text-4xl font-bold text-center text-[#064E96]">
           Our Education Values
         </h2>
         <p className="text-base text-gray-600 max-w-xl mt-2 ">
@@ -44,7 +44,9 @@ const OurEducation = () => {
           >
             <div className="mb-4">{val.icons}</div>
             <p className="text-2xl font-semibold text--700">{val.text}</p>
-            <p className="text-center text-gray-600 mt-2 font-normal">{val.para}</p>
+            <p className="text-center text-gray-600 mt-2 font-normal">
+              {val.para}
+            </p>
           </div>
         ))}
       </div>

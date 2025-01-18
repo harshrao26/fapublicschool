@@ -12,19 +12,19 @@ const Navbar = () => {
   };
   return (
     <div className="fixed w-full z-50">
-      <div className="flex  items-center md:space-x-4 space-x-3 p-2 bg-yellow-400 z-50">
+      <div className="flex   items-center md:space-x-4 space-x-3 p-2 bg-[#064E96] z-50">
         {/* Phone */}
         <div className="flex items-center space-x-1">
           <FiPhone className="text-gray-600" />
-          <span className="md:text-sm text-xs text-gray-800">
+          <span className="md:text-sm text-xs text-white">
             +91-8707747148
           </span>
         </div>
 
         {/* Email */}
         <div className="flex items-center space-x-1">
-          <FiMail className="text-gray-600" />
-          <span className="md:text-sm text-xs text-gray-800">
+          <FiMail className="text-white" />
+          <span className="md:text-sm text-xs text-white">
             fapsjaunpur@gmail.com
           </span>
         </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-blue-500"
+            className="text-white hover:text-blue-500"
           >
             <FaFacebook />
           </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-blue-400"
+            className="text-white hover:text-blue-400"
           >
             <FaTwitter />
           </a>
@@ -51,14 +51,14 @@ const Navbar = () => {
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-pink-500"
+            className="text-white hover:text-pink-500"
           >
             <FaInstagram />
           </a>
         </div>
       </div>
 
-      <nav className=" text-yellow-500 shadow-sm z-50 bg-white">
+      <nav className=" text-[#064E96] shadow-sm z-50 bg-white">
         <div className="container mx-auto px-4 flex justify-between items-center h-16">
           <div className="text-2xl font-bold">
             {" "}

@@ -156,7 +156,7 @@ const Toppers = () => {
   return (
     <div className=" py-12 px-6 md:px-12 overflow-hidden ">
       <div className="max-w-8xl mx-auto relative ">
-        <h2 className="text-3xl font-bold text-center text-yellow-700 mb-8">
+        <h2 className="text-4xl font-bold text-center text-[#064E96] mb-12 ">
           Meet Our Toppers
         </h2>
         <div className="relative overflow-hidden">
@@ -175,7 +175,7 @@ const Toppers = () => {
                 <img
                   src={topper.img}
                   alt={topper.name}
-                  className="w-24 h-24 mx-auto object-cover rounded-full mb-4 border-4 border-yellow-500"
+                  className="w-24 h-24 mx-auto object-cover rounded-full mb-4 border-4 border-[#064E96]"
                 />
                 <h3 className="text-lg font-semibold text-gray-800">
                   {topper.name}
@@ -188,13 +188,13 @@ const Toppers = () => {
           {/* <div className="absolute top-1/2 transform -translate-y-1/2 w-full flex justify-between px-4">
             <button
               onClick={handlePrevious}
-              className="bg-yellow-500 text-white p-2 rounded-full hover:bg-yellow-700"
+              className="bg-[#064E96] text-white p-2 rounded-full hover:bg-[#064E96]"
             >
               &#8592;
             </button>
             <button
               onClick={handleNext}
-              className="bg-yellow-500 text-white p-2 rounded-full hover:bg-yellow-700"
+              className="bg-[#064E96] text-white p-2 rounded-full hover:bg-[#064E96]"
             >
               &#8594;
             </button>

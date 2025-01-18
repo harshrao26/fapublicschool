@@ -57,10 +57,10 @@ const facilities = [
 const CampusFacilities = () => {
   return (
     <div className="bg--100 py-12 px-6 lg:px-20">
-      <h1 className="text-4xl font-bold text-center text-green-700 mb-12">
+      <h1 className="text-4xl font-bold text-center text-[#064E96] mb-4 ">
         Campus Facilities
       </h1>
-      <p className="text-center text-lg text-gray-700 mb-12 max-w-3xl mx-auto">
+      <p className="text-base text-gray-600 text-center mb-12 max-w-3xl mx-auto">
         Our campus is designed to provide the best infrastructure and facilities
         to support the holistic development of our students. Explore the
         state-of-the-art amenities that make our institution a center of
@@ -78,7 +78,7 @@ const CampusFacilities = () => {
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
-              <div className="text-green-700 text-5xl mb-4 flex justify-center">
+              <div className="text-[#064E96] text-5xl mb-4 flex justify-center">
                 {facility.icon}
               </div>
               <h2 className="text-2xl font-bold text-center mb-4 text-gray-800">
@@ -91,7 +91,6 @@ const CampusFacilities = () => {
           </div>
         ))}
       </div>
-     
     </div>
   );
 };

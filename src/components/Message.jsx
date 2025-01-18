@@ -17,7 +17,7 @@ const SchoolSection = () => {
             Dr. M. Sajid Sherwani
           </h2>
           <p className="text-gray-600 text-sm flex items-center mt-1">
-            <FaUniversity className="text-yellow-500 mr-2" />
+            <FaUniversity className="text-[#064E96] mr-2" />
             Ph.D. Alig
           </p>
         </div>
@@ -26,7 +26,7 @@ const SchoolSection = () => {
         <div className="md:w-2/3 p-6 md:p-10">
           {/* Message */}
           <h3 className="text-xl font-bold text-gray-800 flex items-center mb-4">
-            <FaQuoteLeft className="text-yellow-500 mr-2" /> Message from Our
+            <FaQuoteLeft className="text-[#064E96] mr-2" /> Message from Our
             Managing Director
           </h3>
           <p className="text-gray-600 leading-relaxed mb-6">
@@ -38,7 +38,7 @@ const SchoolSection = () => {
 
           {/* Vision */}
           <h3 className="text-xl font-bold text-gray-800 flex items-center mb-2">
-            <FaUniversity className="text-yellow-500 mr-2" /> Our Vision
+            <FaUniversity className="text-[#064E96] mr-2" /> Our Vision
           </h3>
           <p className="text-gray-600 leading-relaxed">
             Our vision is to create an inspiring environment where students are

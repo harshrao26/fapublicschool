@@ -5,13 +5,13 @@ import { MdOutlineLibraryBooks, MdEmail, MdPhone } from "react-icons/md";
 const AboutUs = () => {
   return (
     <div className="bg-gray-5 pt-10 md:pt-32 p-6 md:p-10">
-      <h1 className="text-center text-4xl font-bold text-yellow-800 mb-8">
+      <h1 className="text-center text-3xl font-bold text-[#064E96] mb-8">
         About F.A. Public School
       </h1>
 
       {/* Introduction */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-yellow-600 mb-4 flex items-center">
+        <h2 className="text-2xl font-semibold text-[#064E96] mb-4 flex items-center">
           <FaSchool className="mr-2" /> School Overview
         </h2>
         <p className="text-gray-700 leading-relaxed">
@@ -25,7 +25,7 @@ const AboutUs = () => {
 
       {/* Teaching and Facilities */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-yellow-600 mb-4 flex items-center">
+        <h2 className="text-2xl font-semibold text-[#064E96] mb-4 flex items-center">
           <FaLaptop className="mr-2" /> Technology-Based Teaching
         </h2>
         <ul className="list-disc list-inside text-gray-700 space-y-2 pl-4">
@@ -39,7 +39,7 @@ const AboutUs = () => {
 
       {/* Library Section */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-yellow-600 mb-4 flex items-center">
+        <h2 className="text-2xl font-semibold text-[#064E96] mb-4 flex items-center">
           <MdOutlineLibraryBooks className="mr-2" /> Library Facilities
         </h2>
         <p className="text-gray-700 leading-relaxed">
@@ -51,7 +51,7 @@ const AboutUs = () => {
 
       {/* Games and Activities */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-yellow-600 mb-4 flex items-center">
+        <h2 className="text-2xl font-semibold text-[#064E96] mb-4 flex items-center">
           <FaGamepad className="mr-2" /> Indoor & Outdoor Games
         </h2>
         <p className="text-gray-700 leading-relaxed">
@@ -63,7 +63,7 @@ const AboutUs = () => {
 
       {/* Admission Details */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-yellow-600 mb-4 flex items-center">
+        <h2 className="text-2xl font-semibold text-[#064E96] mb-4 flex items-center">
           <FaUserGraduate className="mr-2" /> Admission Details
         </h2>
         <p className="text-gray-700 leading-relaxed">
@@ -73,7 +73,7 @@ const AboutUs = () => {
 
       {/* Contact Information */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-yellow-600 mb-4 flex items-center">
+        <h2 className="text-2xl font-semibold text-[#064E96] mb-4 flex items-center">
           <MdPhone className="mr-2" /> Contact Information
         </h2>
         <p className="text-gray-700 leading-relaxed mb-2">
@@ -81,7 +81,7 @@ const AboutUs = () => {
           Sherwani ‘Alig’, Ph.D
         </p>
         <p className="text-gray-700 flex items-center">
-          <MdEmail className="mr-2 text-yellow-500" /> Email:
+          <MdEmail className="mr-2 text-[#064E96]" /> Email:
           fapsjaunpur@gmail.com
         </p>
         <p className="text-gray-700 flex items-center">

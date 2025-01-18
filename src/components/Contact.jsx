@@ -56,7 +56,7 @@ const ContactUs = () => {
 
         {/* Right Section: Form */}
         <div className="w-full md:w-1/2 p-8">
-          <h2 className="text-3xl font-bold text-yellow-900 mb-6 text-center">
+          <h2 className="text-3xl font-bold text-[#064E96] mb-6 text-center">
             Contact Us
           </h2>
 
@@ -147,7 +147,7 @@ const ContactUs = () => {
 
             <button
               type="submit"
-              className={`w-full p-3 text-white font-medium bg-yellow-400 rounded-md ${
+              className={`w-full p-3 text-white font-medium bg-[#064E96] rounded-md ${
                 isSubmitting ? "opacity-50 cursor-not-allowed" : ""
               }`}
               disabled={isSubmitting}
