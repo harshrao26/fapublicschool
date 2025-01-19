@@ -1,18 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import kids from '../assets/kids.jpg'
-import kids1 from '../assets/kids1.jpg'
-import kids2 from '../assets/kids2.jpg'
-import kids3 from '../assets/kids3.jpg'
-import kids4 from '../assets/kids4.jpg'
+import hijab from "../assets/hijab.webp";
+import hijab3 from "../assets/hijab3.webp";
+import hijab4 from "../assets/hijab4.webp";
+import hijab8 from "../assets/hijab8.png";
+import hijab5 from "../assets/hijab5.jpg";
+import hijab6 from "../assets/hijab6.jpg";
+import hijab7 from "../assets/hijab7.jpg";
 const Hero = () => {
-  const images = [
-    "https://t4.ftcdn.net/jpg/03/07/84/03/360_F_307840318_8bA5i8nfSre5dTNmr37Eot8vrqehE2vD.jpg",
-    "kids1",
-    kids2,
-    kids3,
-    kids4,
-  ];
+  const images = [hijab8, hijab4, hijab5, hijab6, hijab];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState("right");

@@ -98,11 +98,9 @@ const AboutUs = () => {
           fapsjaunpur@gmail.com
         </p>
         <p className="text-gray-700 flex items-center">
-          <MdPhone className="mr-2 text-green-500" /> Contact: 870774714
+          <MdPhone className="mr-2 text-green-500" /> Contact: 8707747148
         </p>
       </section>
-
-     
     </div>
   );
 };

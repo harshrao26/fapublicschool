@@ -1,6 +1,6 @@
 import React from "react";
-import { FaSchool, FaChalkboardTeacher, FaHome, FaBus } from "react-icons/fa";
-
+import kidsgreen from '../assets/kidsgreen.jpg'
+import landg from '../assets/landg.jpeg'
 const LearningGrowthSection = () => {
   return (
     <div className="bg-zinc-50 py-12 px-6 lg:px-20">
@@ -9,7 +9,7 @@ const LearningGrowthSection = () => {
         {/* Image Section */}
         <div>
           <img
-            src="https://via.placeholder.com/600x400?text=Green+Ambiance"
+            src={landg}
             alt="Green Ambiance"
             className="rounded-lg shadow-lg"
           />
@@ -58,7 +58,7 @@ const LearningGrowthSection = () => {
         {/* Image Section */}
         <div className="grid grid-cols-1 gap-4">
           <img
-            src="https://via.placeholder.com/600x400?text=Green+Ambiance"
+            src={kidsgreen}
             alt="Green Ambiance"
             className="rounded-lg shadow-lg"
           />

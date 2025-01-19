@@ -5,25 +5,25 @@ const Toppers = () => {
     {
       id: 1,
       name: "Aarav Sharma",
-      img: "https://i.pinimg.com/474x/6b/7e/d6/6b7ed698713c09ad9e6afc7dcb996a09.jpg",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvpLjYWYnm-WlbTw39K9SfasxttPEBdI7ZVrfwTaXuM28_v-l-VVagZkHzhANqzna5GFM&usqp=CAU",
       class: "10th ",
     },
     {
       id: 2,
       name: "Ishita Verma",
-      img: "https://www.mrmed.in/Guruvigneshwari.jpg",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxXEn0tWJjchUO24Y8PEqkNcyPIJ0CqqRfDWJqtG8AKryVwIJEL5b_7IINnlRQduxNsM&usqp=CAU",
       class: "12th ",
     },
     {
       id: 3,
       name: "Sana Khan",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThOeiQhUXDO6Rl2Ugfi1m-HfNw_3Hmeqw1nPC9AAiTlhL8yW_TTLn-EkHBqNpdingIaPo&usqp=CAU",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpbJG-pY6oz6_8EvxzRQBDPSiptMuHuM2JTA&s",
       class: "10th ",
     },
     {
       id: 4,
       name: "Ayesha Parveen",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlCeyIeNUMwF5Z4ze0RyK0c6UQ_UOuFGyuFeZEIvg1WxND09gdOIZznleKod-YV-90F60&usqp=CAU",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7nWt8fHp7bljKngT9u-O6yOPO1y1K4Oj66g&s",
       class: "12th ",
     },
     {
@@ -35,20 +35,20 @@ const Toppers = () => {
     {
       id: 6,
       name: "Anas Khan",
-      img: "https://i.pinimg.com/736x/05/7f/df/057fdfd101877c6e33c11f3fda62ab9b.jpg",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP7YUMtaXsCxEXoWAvfTnXoNfhVlpYspDUJ3ZAJRaDV6_EcNG9_fjtH0H6ChEiW77t7fk&usqp=CAU",
       class: "12th ",
     },
     {
       id: 7,
       name: "Adnan Sheikh",
-      img: "https://www.charusat.ac.in/cmpica/images/faculty_photo/jaypanchal.jpg",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB1U1rhKgQ_iMIwXaduhmpkl-EU1qte61Rsqeyguq26YROETglY4U9vjzJWIYUrbmu0uc&usqp=CAU",
       class: "12th ",
     },
-   
+
     {
       id: 9,
       name: "Nazim Ahamed",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVI0hDIloDMjTT0hpF0UAWdJAJeydAG2isNo6OK_I6DiVF8cK0NNXUga5priFdu9O2_PQ&usqp=CAU",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdJDH70QgTsncjRzMw74dTJYIGab6578QGZaxzzv8FtOBT4-nU-n6MNPkt1b2YMzLuW3A&usqp=CAU",
       class: "12th ",
     },
     {
@@ -180,7 +180,7 @@ const Toppers = () => {
                 <h3 className="text-lg font-semibold text-gray-800">
                   {topper.name}
                 </h3>
-                <p className="text-gray-500">{topper.class}</p>
+                {/* <p className="text-gray-500">{topper.class}</p> */}
               </div>
             ))}
           </div>

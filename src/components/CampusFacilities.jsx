@@ -2,12 +2,17 @@ import React from "react";
 import {
   FaChalkboardTeacher,
   FaLaptop,
-  FaFlask,
   FaBook,
   FaFutbol,
   FaShieldAlt,
   FaBus,
 } from "react-icons/fa";
+import classs from "../assets/class.jpg";
+import computer from "../assets/computer.jpg";
+import lib from "../assets/lib.jpg";
+import play from "../assets/play.jpg";
+import security from "../assets/security.jpg";
+import trans from "../assets/trans.jpeg";
 
 const facilities = [
   {
@@ -15,42 +20,42 @@ const facilities = [
     title: "Class Rooms",
     detail:
       "Equipped with smart boards and modern seating arrangements for an enhanced learning experience.",
-    image: "https://via.placeholder.com/600x400?text=Class+Rooms",
+    image: classs,
   },
   {
     icon: <FaLaptop />,
     title: "Computer Lab",
     detail:
       "State-of-the-art computer lab with high-speed internet and the latest systems for practical learning.",
-    image: "https://via.placeholder.com/600x400?text=Computer+Lab",
+    image: computer,
   },
   {
     icon: <FaBook />,
     title: "Library",
     detail:
       "A spacious library with a vast collection of books, journals, and digital resources to support academic excellence.",
-    image: "https://via.placeholder.com/600x400?text=Library",
+    image: lib,
   },
   {
     icon: <FaFutbol />,
     title: "Play Area",
     detail:
       "Large play areas with facilities for football, cricket, and other outdoor activities to ensure physical fitness.",
-    image: "https://via.placeholder.com/600x400?text=Play+Area",
+    image: play,
   },
   {
     icon: <FaShieldAlt />,
     title: "Safety & Security",
     detail:
       "24x7 security with CCTV surveillance and trained personnel ensuring a safe campus for students and staff.",
-    image: "https://via.placeholder.com/600x400?text=Safety",
+    image: security,
   },
   {
     icon: <FaBus />,
     title: "Transport",
     detail:
       "Fleet of GPS-enabled buses and vans for safe and efficient transportation of students and staff.",
-    image: "https://via.placeholder.com/600x400?text=Transport",
+    image: trans,
   },
 ];
 

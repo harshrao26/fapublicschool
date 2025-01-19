@@ -6,7 +6,7 @@ import {
   FaTools,
   FaRegListAlt,
 } from "react-icons/fa";
-
+import curri from '../assets/curri.jpg'
 const Curriculum = () => {
   useEffect(() => {
     // Ensure scrolling to the top of the document when the component is mounted
@@ -38,7 +38,7 @@ const Curriculum = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-12">
           <div className="w-full md:w-1/2 mb-8 md:mb-0">
             <img
-              src="https://via.placeholder.com/500x300"
+              src={curri}
               alt="Curriculum Overview"
               className="w-full h-auto rounded-lg shadow-lg object-cover"
             />

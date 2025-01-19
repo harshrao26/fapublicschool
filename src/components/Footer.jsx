@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
@@ -33,25 +34,35 @@ const Footer = () => {
           <h3 className="text-2xl font-semibold text-white">Quick Links</h3>
           <ul className="text-gray-200">
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <Link to="/" className="hover:text-blue-500">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="hover:text-blue-500">
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
-                Blogs
-              </a>
+              <Link to="/academics" className="hover:text-blue-500">
+                Academics
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
-                Gallery
-              </a>
+              <Link to="/admission" className="hover:text-blue-500">
+                Admission
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
-                TC Search
-              </a>
+              <Link to="/curriculum" className="hover:text-blue-500">
+                Curriculum
+              </Link>
             </li>
+            {/* <li>
+              <Link to="/contact" className="hover:text-blue-500">
+                Contact
+              </Link>
+            </li> */}
           </ul>
         </div>
 
@@ -59,44 +70,45 @@ const Footer = () => {
         <div className="space-y-4 text-center md:text-left">
           <h3 className="text-2xl font-semibold text-white">Support</h3>
           <ul className="text-gray-200">
-            <li>
-              <a href="#" className="hover:text-blue-500">
+            {/* <li>
+              <Link to="/hostel" className="hover:text-blue-500">
                 Hostel Facilities
-              </a>
-            </li>
+              </Link>
+            </li> */}
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <Link to="/contact" className="hover:text-blue-500">
                 Contact Us
-              </a>
+              </Link>
             </li>
-            <li>
-              <a href="#" className="hover:text-blue-500">
+            {/* <li>
+              <Link to="/disclosures" className="hover:text-blue-500">
                 Mandatory Public Disclosures
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-blue-500">
+              </Link>
+            </li> */}
+            {/* <li>
+              <Link to="/cbse-curriculum" className="hover:text-blue-500">
                 CBSE Curriculum
-              </a>
-            </li>
+              </Link>
+            </li> */}
           </ul>
         </div>
       </div>
 
-      {/* Admission Banner */}
-      {/* <div className="bg-yellow-500 text-blue-900 py-3 text-center font-semibold">
-        <span>Admission Open!</span>
-      </div> */}
-
       {/* School Hours & Copyright */}
       <div className="text-center mt-6 text-gray-200">
         <p className="text-lg">School Hours: 8 AM - 3 PM, Monday - Saturday</p>
-        <p className="text-sm">
+        {/* <p className="text-sm">
           Co-Ed school affiliated to Central Board of Secondary Education
           (CBSE), managed by Vision Educational And Technical Trust.
-        </p>
+        </p> */}
         <p className="text-xs mt-4">
           © 2025 FA Public School. All rights reserved.
+        </p>
+        <p className="text-xs mt-4">
+          Created be the Developers of{" "}
+          <a href="" className="underline">
+            Advert Furos
+          </a>
         </p>
       </div>
     </footer>

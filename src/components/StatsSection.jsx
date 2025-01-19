@@ -22,9 +22,9 @@ const StatsSection = () => {
   const handleScroll = (entries) => {
     const entry = entries[0];
     if (entry.isIntersecting) {
-      incrementCounter(setActiveStudents, 1000);
+      incrementCounter(setActiveStudents, 100);
       incrementCounter(setPlayGrounds, 2);
-      incrementCounter(setBestFaculties, 20);
+      incrementCounter(setBestFaculties, 10);
       observer.disconnect(); // Stop the observer once the section is in view
     }
   };
