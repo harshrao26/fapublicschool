@@ -63,7 +63,7 @@ const Curriculum = () => {
         </div>
 
         {/* Curriculum Stages */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
           {/* Early Education */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
@@ -73,7 +73,7 @@ const Curriculum = () => {
               Early Education (Nursery - Class 2)
             </h4>
             <img
-              src="https://via.placeholder.com/150x150"
+              src="https://b3633834.smushcdn.com/3633834/wp-content/uploads/2023/09/6-Early-Childhood-Education-Benefits-That-You-Can-Highlight-800x533.png?lossy=0&strip=1&webp=1"
               alt="Early Education"
               className="w-32 h-32 object-cover rounded-full mx-auto mb-4"
             />
@@ -93,7 +93,7 @@ const Curriculum = () => {
               Primary Education (Class 3 - Class 5)
             </h4>
             <img
-              src="https://via.placeholder.com/150x150"
+              src="https://www.early-childhood-education-degrees.com/wp-content/uploads/2016/05/bigstock-Teacher-teach-preschool-kids-i-113101064.jpg"
               alt="Primary Education"
               className="w-32 h-32 object-cover rounded-full mx-auto mb-4"
             />
@@ -101,47 +101,6 @@ const Curriculum = () => {
               Students focus on developing critical thinking skills while
               covering subjects like Science, Math, Social Studies, and English.
               We encourage creativity through co-curricular activities.
-            </p>
-          </div>
-
-          {/* Middle Education */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
-            <div className="flex justify-center mb-4">
-              <FaRegListAlt className="text-[#064e96] text-4xl" />
-            </div>
-            <h4 className="text-xl font-semibold text-[#064e96] mb-2">
-              Middle Education (Class 6 - Class 8)
-            </h4>
-            <img
-              src="https://via.placeholder.com/150x150"
-              alt="Middle Education"
-              className="w-32 h-32 object-cover rounded-full mx-auto mb-4"
-            />
-            <p className="text-gray-700">
-              At this stage, we dive deeper into core subjects while also
-              introducing electives. Students are encouraged to think critically
-              and express themselves creatively.
-            </p>
-          </div>
-
-          {/* Senior Education */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
-            <div className="flex justify-center mb-4">
-              <FaGraduationCap className="text-[#064e96] text-4xl" />
-            </div>
-            <h4 className="text-xl font-semibold text-[#064e96] mb-2">
-              Senior Education (Class 9 - Class 12)
-            </h4>
-            <img
-              src="https://via.placeholder.com/150x150"
-              alt="Senior Education"
-              className="w-32 h-32 object-cover rounded-full mx-auto mb-4"
-            />
-            <p className="text-gray-700">
-              Our senior curriculum prepares students for future academic
-              success and careers. We offer specialized streams in Science,
-              Commerce, and Humanities. Students are trained in both academics
-              and life skills.
             </p>
           </div>
         </div>

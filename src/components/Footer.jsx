@@ -17,15 +17,21 @@ const Footer = () => {
             the student.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-200 hover:text-blue-500">
+            <a
+              href="https://www.facebook.com/profile.php?id=61571933045797"
+              className="text-gray-200 hover:text-blue-500"
+            >
               <FaFacebookF size={20} />
             </a>
-            <a href="#" className="text-gray-200 hover:text-blue-500">
+            <a
+              href="https://www.instagram.com/f.a_publicschool/"
+              className="text-gray-200 hover:text-blue-500"
+            >
               <FaInstagram size={20} />
             </a>
-            <a href="#" className="text-gray-200 hover:text-blue-500">
+            {/* <a href="#" className="text-gray-200 hover:text-blue-500">
               <FaLinkedinIn size={20} />
-            </a>
+            </a> */}
           </div>
         </div>
 
