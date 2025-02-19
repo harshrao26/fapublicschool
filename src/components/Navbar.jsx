@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-1">
           <FiPhone className="text-[#064E96]" />
           <span className="md:text-sm text-xs text-[#064E96]">
-            +91-8707747148
+            +91-9936578800
           </span>
         </div>
 

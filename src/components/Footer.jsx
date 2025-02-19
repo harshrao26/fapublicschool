@@ -5,11 +5,11 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-[#064E96] text-white py-12 px-8">
-      <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         {/* Left Section */}
         <div className="flex flex-col items-center md:items-start">
           <div className="text-4xl font-extrabold text-white mb-4">
-            FA PUBLIC SCHOOL
+            F.A. PUBLIC SCHOOL
           </div>
           <p className="text-lg text-gray-200 mb-6 text-center md:text-left">
             The cornerstone in our pedagogical model is the progression for each
@@ -98,6 +98,12 @@ const Footer = () => {
             </li> */}
           </ul>
         </div>
+        {/* Support Section */}
+        <div className="space-y-4 text-center md:text-left">
+          <h3 className="text-2xl font-semibold text-white">Location</h3>
+          <p>Mohammad Hasan Market, Firoshepur, Jaunpur UP - 222001</p>
+          <p>Phone: +91-9936578800</p>
+        </div>
       </div>
 
       {/* School Hours & Copyright */}
@@ -112,7 +118,7 @@ const Footer = () => {
         </p>
         <p className="text-xs mt-4">
           Created be the Developers of{" "}
-          <a href="" className="underline">
+          <a href="https://www.advertfuros.com/" className="underline">
             Advert Furos
           </a>
         </p>

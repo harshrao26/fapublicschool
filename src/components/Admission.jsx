@@ -28,7 +28,7 @@ const Admissions = () => {
           Admissions at F.A. Public School
         </h2>
         <p className="text-lg text-gray-700 mb-12">
-          We welcome all students to join our community. Explore the admission
+          We welcome all students to join our  educational institution. Explore the admission
           process and get started today!
         </p>
 

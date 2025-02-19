@@ -61,9 +61,35 @@ const Curriculum = () => {
             </p>
           </div>
         </div>
+        <div className="bg-white p-6 rounded-lg shadow-lg mb-8 ">
+          <h2 className="text-2xl font-bold text-[#064e96] mb-4">Vision</h2>
+          <p className="text-gray-700 leading-relaxed">
+            F.A. Public School is a vibrant institution of learning, knowledge,
+            and information aimed at promoting the innovative and intellectual
+            capacity of students to excel in their respective career paths. This
+            institution fosters a conducive and friendly environment with
+            dynamic learning methods, transforming potential into reality while
+            making life meaningful, effective, and successful. Our vision is to
+            nurture constructive thoughts, habits, and objectives in each
+            student, enabling them to become valuable citizens with social
+            consciousness and moral freedom.
+          </p>
+        </div>
+
+        {/* Mission Section */}
+        <div className="bg-white p-6 rounded-lg shadow-lg">
+          <h2 className="text-2xl font-bold text-[#064e96] mb-4">Mission</h2>
+          <p className="text-gray-700 leading-relaxed">
+            At F.A. Public School, we strive to promote education embedded with
+            civilizational values, principles, social responsibility, and
+            critical thinking. Our mission is to advance humanity through moral
+            conduct, honesty, progress, and an inclusive learning environment,
+            fostering well-rounded individuals prepared for future challenges.
+          </p>
+        </div>
 
         {/* Curriculum Stages */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 my-8">
           {/* Early Education */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
@@ -99,8 +125,8 @@ const Curriculum = () => {
             />
             <p className="text-gray-700">
               Students focus on developing critical thinking skills while
-              covering subjects like Science, Math, Social Studies, and English.
-              We encourage creativity through co-curricular activities.
+              covering subjects like Science, Math, Social Studies and English.
+              We encourage creativity through extra-curricular activities.
             </p>
           </div>
         </div>
@@ -112,8 +138,8 @@ const Curriculum = () => {
           </h3>
           <p className="text-lg mb-4">
             We believe in an interactive, student-centered approach. Our
-            teachers use technology, multimedia tools, and real-world examples
-            to make learning more engaging. Additionally, we incorporate:
+            teachers use technology, multimedia tools and real-world examples to
+            make learning more engaging. Additionally, we incorporate:
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -130,10 +156,11 @@ const Curriculum = () => {
               </span>
             </div>
             {/* Co-curricular Activities */}
+
             <div className="flex justify-center items-center space-x-4">
               <FaBookOpen className="text-3xl" />
               <span className="text-lg">
-                Wide range of co-curricular activities
+                Wide range of extra-curricular activities
               </span>
             </div>
             {/* Personalized Attention */}

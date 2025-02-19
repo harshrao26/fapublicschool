@@ -31,64 +31,74 @@ const Academics = () => {
         </h2>
         <p className="text-lg text-gray-700 mb-12">
           We offer a well-rounded academic experience with a focus on both
-          intellectual growth and personal development.
+          intellectual growth and personality development.
         </p>
 
         {/* Academic Programs Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Curriculum Program */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+          <div className="bg-gradient-to-r from-blue-400 to-blue-600 text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaBook className="text-[#064e96] text-4xl" />
+              <img
+                src="https://www.sec-ed.co.uk/media/svcnbps4/curriculum2-as.jpg" // Add actual image path
+                alt="Curriculum"
+                className="w-24 h-24 rounded-full shadow-lg"
+              />
             </div>
-            <h3 className="text-xl font-semibold text-[#064e96] mb-2">
-              Curriculum
-            </h3>
-            <p className="text-gray-700">
-              Our curriculum is based on the CBSE pattern and designed to offer
-              a balanced mix of academics and extracurricular activities.
+            <h3 className="text-xl font-semibold mb-2">Curriculum</h3>
+            <p>
+              Our curriculum follows the CBSE pattern, blending academics with
+              exciting extracurricular activities.
             </p>
           </div>
 
           {/* Teachers Section */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+          <div className="bg-gradient-to-r from-green-400 to-green-600 text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaChalkboardTeacher className="text-[#064e96] text-4xl" />
+              <img
+                src="https://wp.scoopwhoop.com/wp-content/uploads/2017/09/59ae90b07c99885c215254f7_4b5b611d-d1be-4962-9e67-a156a967d9bb.jpg" // Add actual image path
+                alt="Teachers"
+                className="w-24 h-24 rounded-full shadow-lg"
+              />
             </div>
-            <h3 className="text-xl font-semibold text-[#064e96] mb-2">
-              Experienced Teachers
-            </h3>
-            <p className="text-gray-700">
-              Our teachers are highly qualified and passionate about nurturing
-              the intellectual and emotional growth of students.
+            <h3 className="text-xl font-semibold mb-2">Experienced Teachers</h3>
+            <p>
+              Our dedicated teachers inspire and nurture students, fostering
+              both academic and personal growth.
             </p>
           </div>
 
           {/* Graduation Programs */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+          <div className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaGraduationCap className="text-[#064e96] text-4xl" />
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/016/081/866/small/career-education-with-kids-growth-concept-learning-model-to-associate-activity-for-real-experience-in-flat-cartoon-hand-drawn-template-illustration-vector.jpg" // Add actual image path
+                alt="Graduation"
+                className="w-24 h-24 rounded-full shadow-lg"
+              />
             </div>
-            <h3 className="text-xl font-semibold text-[#064e96] mb-2">
-              Graduation Programs
-            </h3>
-            <p className="text-gray-700">
-              We offer specialized programs that prepare students for higher
-              education with an emphasis on both academics and leadership.
+            <h3 className="text-xl font-semibold mb-2">Career Programs</h3>
+            <p>
+              Our specialized programs equip students with leadership and
+              academic skills for a bright future.
             </p>
           </div>
 
           {/* Student-Centered Approach */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+          <div className="bg-gradient-to-r from-pink-400 to-pink-600 text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
             <div className="flex justify-center mb-4">
-              <FaUsers className="text-[#064e96] text-4xl" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkXmRQlat5RhNZ7roeEwcGHXguBX2ToZPq4w&s" // Add actual image path
+                alt="Students"
+                className="w-24 h-24 rounded-full shadow-lg"
+              />
             </div>
-            <h3 className="text-xl font-semibold text-[#064e96] mb-2">
+            <h3 className="text-xl font-semibold mb-2">
               Student-Centered Approach
             </h3>
-            <p className="text-gray-700">
-              Our school focuses on the holistic development of students through
-              personalized guidance, mentoring, and peer learning.
+            <p>
+              We focus on holistic development through personalized guidance and
+              engaging peer learning.
             </p>
           </div>
         </div>
@@ -98,7 +108,7 @@ const Academics = () => {
           <h3 className="text-2xl font-semibold text-[#064e96] mb-6">
             State-of-the-Art Facilities
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
               <img
                 src={classroom}
@@ -129,7 +139,7 @@ const Academics = () => {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+            {/* <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
               <img
                 src={lab}
                 alt="Science Lab"
@@ -142,7 +152,7 @@ const Academics = () => {
                 A well-equipped science lab where students can experiment,
                 discover, and engage in practical learning.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

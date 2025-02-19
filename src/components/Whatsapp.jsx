@@ -14,7 +14,7 @@ const Whatsapp = () => {
         <img
           src={whatsapp}
           alt="Click to Download"
-          className="fixed z-40 h-16 bottom-1 right-8  cursor-pointer"
+          className="fixed z-40 h-16 bottom-10 right-8  cursor-pointer"
         />
       </a>
       <a
@@ -26,7 +26,7 @@ const Whatsapp = () => {
         <img
           src={whatsapp}
           alt="Click to Download"
-          className="fixed  h-16 bottom-1 right-4 cursor-pointer"
+          className="fixed  h-16 bottom-10 right-4 cursor-pointer"
         />
       </a>
     </div>

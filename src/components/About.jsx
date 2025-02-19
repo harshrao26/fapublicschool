@@ -28,7 +28,7 @@ const AboutUs = () => {
           <FaSchool className="mr-2" /> School Overview
         </h2>
         <p className="text-gray-700 leading-relaxed">
-          F.A. Public School, located in Mohammad Hasan Market, Firoshepur,
+          F.A. Public School, located at Mohammad Hasan Market, Firoshepur,
           Jaunpur, offers education from Nursery to Class 5th and is on the path
           to becoming a Junior High School soon. It follows the CBSE pattern
           integrated with NEP 2020, delivering a UK-based education concept and
@@ -90,15 +90,18 @@ const AboutUs = () => {
           <MdPhone className="mr-2" /> Contact Information
         </h2>
         <p className="text-gray-700 leading-relaxed mb-2">
-          <span className="font-semibold">Manager/Director:</span> Dr. M. Sajid
-          Sherwani ‘Alig’, Ph.D
+          <span className="font-semibold">
+            Manager/Director: <br />
+          </span>{" "}
+          Dr. M. Sajid Sherwani 'Alig', (Ph.D)
         </p>
         <p className="text-gray-700 flex items-center">
           <MdEmail className="mr-2 text-[#064E96]" /> Email:
           fapsjaunpur@gmail.com
         </p>
         <p className="text-gray-700 flex items-center">
-          <MdPhone className="mr-2 text-green-500" /> Contact: 8707747148
+          <MdPhone className="mr-2 text-green-500" /> Contact: 9936578800,
+          9125047700
         </p>
       </section>
     </div>
